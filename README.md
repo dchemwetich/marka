@@ -42,7 +42,7 @@ GitHub Repository: [https://github.com/dchemwetich/marka.git](https://github.com
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/marka.git
+git clone https://github.com/dchemwetich/marka.git
 cd marka
 
 # Install dependencies
