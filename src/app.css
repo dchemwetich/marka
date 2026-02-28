@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  background: #0a0a0a;
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #0d0d0d; }
+::-webkit-scrollbar-thumb { background: #222; border-radius: 3px; }
+
+/* Highlight.js theme overrides */
+.hljs {
+  background: #111 !important;
+  border-radius: 6px;
+  padding: 1em;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85em;
+}
