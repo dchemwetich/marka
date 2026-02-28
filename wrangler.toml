@@ -1,0 +1,12 @@
+name = "bible-admin"
+main = ".svelte-kit/cloudflare/_worker.js"
+compatibility_date = "2026-02-21"
+compatibility_flags = ["nodejs_compat"]
+
+# Static asset binding (required by adapter-cloudflare)
+[assets]
+directory = ".svelte-kit/cloudflare"
+binding = "ASSETS"
+
+# When deploying via `npx wrangler deploy`, run `npm run build` first so
+# `.svelte-kit/cloudflare/_worker.js` and assets exist.
