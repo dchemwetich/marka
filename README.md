@@ -1,4 +1,6 @@
 # Marka ✦
+ 
+GitHub Repository: [https://github.com/dchemwetich/marka.git](https://github.com/dchemwetich/marka.git)
 
 > A beautiful, minimalist Markdown editor with live preview and one-click export to PDF and DOCX — built with SvelteKit and hosted on Cloudflare Pages.
 
